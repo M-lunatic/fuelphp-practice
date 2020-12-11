@@ -1,1 +1,5 @@
-{$body}
+<html>
+<body>
+{%$name%}
+</body>
+</html>

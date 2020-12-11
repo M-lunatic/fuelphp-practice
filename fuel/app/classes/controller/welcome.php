@@ -30,8 +30,9 @@ class Controller_Welcome extends Controller
 	public function action_index()
 	{
 		//return Response::forge(View::forge('welcome/index'));
-		$data = array("body"=>'smarty-templatetest');
-		return Response::forge(View::forge('welcome/smarty-index',$data));
+		
+		return View_Smarty::forge('welcome/smarty-index.tql', array('name' => 'hoge'));
+
 	}
 
 	/**

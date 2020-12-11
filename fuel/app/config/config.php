@@ -1,7 +1,6 @@
 <?php
 /**
- * Fuel is a fast, lightweight, community driven PHP 5.4+ framework.
- *
+ *Fuel is a fast, lightweight, community driven PHP 5.4+ framework.
  * @package    Fuel
  * @version    1.8.2
  * @author     Fuel Development Team
@@ -148,7 +147,7 @@ return array(
 	 *  Fallback language when file isn't available for default language.
 	 */
 
-	// 'language_fallback' => 'en',
+	 'language_fallback' => 'ja',
 
 	/**
 	 *  PHP set_locale() setting. Use null to not set.
@@ -180,7 +179,7 @@ return array(
 	 *  Change the server's default timezone. This is optional.
 	 */
 
-	 'default_timezone' => Asia/Tokyo,
+	 'default_timezone' => 'Asia/Tokyo',
 
 	/**
 	 * -------------------------------------------------------------------------
@@ -228,7 +227,7 @@ return array(
 		 * ---------------------------------------------------------------------
 		 */
 
-		 'token_salt' => 'abcdefghijklmnopqrstuvwxyz1234567890',
+		// 'token_salt' => 'put your salt value here to make the token more secure',
 
 		/**
 		 * ---------------------------------------------------------------------
@@ -468,7 +467,7 @@ return array(
 		 */
 
 		 'packages' => array(
-		 	 'orm',
+			 'orm',
 			'parser',
 		 ),
 
